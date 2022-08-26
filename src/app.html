@@ -4,6 +4,28 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+		<style>
+			/* width */
+			::-webkit-scrollbar {
+				width: 2px;
+				height: 2px;
+			}
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: #fcd901;
+			}
+
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: #7c3602;
+				border-radius: 6px;
+			}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: #755238;
+			}
+		</style>
 		%sveltekit.head%
 	</head>
 	<body>
