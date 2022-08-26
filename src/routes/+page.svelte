@@ -49,11 +49,19 @@
 <style lang="css">
 	.imag {
 		object-fit: contain;
+		width: 320px;
 	}
 	li {
 		list-style: none;
 		display: flex;
 		justify-content: center;
 		padding-top: 10px;
+	}
+
+	@media (min-width: 768px) {
+		.imag {
+		
+		width: auto;
+	}
 	}
 </style>
